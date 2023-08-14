@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ac9652a8-2c96-45c2-a9ec-5a894b5306fc" name="Oblako" url="192.168.188.172">
+        <fileTransfer accessType="SFTP" host="192.168.188.172" port="22" sshConfigId="65e22c87-2e2b-4eb2-a979-71321e3a76c7" sshConfig="Sasha@192.168.188.172:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

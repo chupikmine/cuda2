@@ -1,0 +1,56 @@
+.header h2 {
+    text-align: center;
+    padding-top: 240px;
+    font-size: 30px;
+    color: white;
+
+}
+
+.header {
+    background: #87509c;
+    padding-bottom: 145px;
+}
+
+.content {
+    text-align: center;
+}
+
+.header button {
+    background: #eb7d4b;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 10px 60px;
+    text-transform: uppercase;
+}
+.nav {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.header a {
+    padding: 10px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: white;
+}
+
+.header .active{
+    background: #611a74;
+}
+.services .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.title{
+    text-align: center;
+}
+.services .card{
+    text-align: center;
+
+}
+.people h4{
+    color: aqua;
+}
