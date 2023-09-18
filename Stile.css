@@ -111,6 +111,7 @@
 }
 .portfolio .links{
     text-align: center;
+
 }
 .portfolio .links a{
     background: burlywood;
@@ -119,6 +120,7 @@
     display: inline-block;
     border-radius: 4px;
     margin-top: 20px;
+    text-decoration: none;
 }
 .portfolio .links .active{
     color: black;
@@ -127,8 +129,27 @@
 .portfolio{
     background: blanchedalmond;
 }
+.what img{
+    height: 100px;
 
-
+}
+.what .client{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+.what .clients{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.what .clients img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.what h3{
+ padding: top ;
+}
 
 
 
